@@ -1,0 +1,23 @@
+{
+  "name": "lc-hermes",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thomasdunand/divers.git"
+  },
+  "keywords": [
+
+  ],
+  "author": "Thomas dunand",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.5.2",
+    "lodash": "^4.0.0",
+    "restify": "^4.0.3"
+  }
+}
