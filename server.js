@@ -33,6 +33,6 @@ server.listen(8080, function() {
   console.log({evt:"system", msg: server.name +' is listening on ' + server.url});
 });
 
-require('./routes/email')(server);
+require('./routes/routes')(server);
 
 
