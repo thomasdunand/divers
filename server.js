@@ -94,7 +94,7 @@ var SampleApp = function() {
      *  the handlers.
      */
     self.initializeServer = function() {
-        self.app = express.createServer();
+        self.app = express();
 
         require('./routes/routes')(self.app);
     };
